@@ -68,7 +68,7 @@ def main():
         col_num=((int(t.num_cols) - len(location_text) - len(city_text)) // 2),
         contin=True,
     )
-    t.gen_typing_text("....................", t.num_rows - 2, contin=True)
+    t.gen_typing_text("....................", int(t.num_rows - 2), contin=True)
     t.delete_row(int(t.num_rows) - 2)
     t.gen_text(
         location_text + "....................",
@@ -117,7 +117,7 @@ def main():
     )
 
     log_prmpt = "login: "
-    uname = "mal0ner"
+    uname = "camalk"
     pword_prmpt = "password: "
     pword = "***********"
     t.delete_row(int(t.num_rows) - 2)
@@ -169,7 +169,6 @@ def main():
 
     \x1b[30;101mContact:\x1b[0m
     --------------
-    \x1b[96mEmail:      \x1b[93mcameronmkm2@gmail.com\x1b[0m
     \x1b[96mLinkedIn:   \x1b[93mcammalone\x1b[0m
     """
 
