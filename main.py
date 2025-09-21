@@ -142,7 +142,7 @@ def main():
     t.clear_frame()
     t.clone_frame(5)
     t.toggle_show_cursor(False)
-    t.set_prompt("\x1b[33mmal0ner\x1b[0m@gitbox $ ")
+    t.set_prompt("\x1b[33mcamalk\x1b[0m@gitbox $ ")
     t.gen_prompt(1, count=15)
     prompt_col = t.curr_col
     t.toggle_show_cursor(True)
