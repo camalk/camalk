@@ -200,7 +200,7 @@ def main():
         <img alt="GIFOS_README_TERMINAL" src="{image.url}">
     </picture>
 
-    <sub><i>Generated automatically using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal)</i></sub>
+    <sub><i>Generated using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal)</i></sub>
 
     </div>
         """
