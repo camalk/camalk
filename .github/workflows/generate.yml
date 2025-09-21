@@ -15,7 +15,7 @@ jobs:
         with:
           # only latest commit
           fetch-depth: 1
-      - uses: FedericoCarboni/setup-ffmpeg@v3
+      - uses: FedericoCarboni/setup-ffmpeg@v2
       - name: Install uv
         uses: astral-sh/setup-uv@v6
         with:
