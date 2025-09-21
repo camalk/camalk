@@ -193,16 +193,16 @@ def main():
     # upload the gif to save hella space
     image = gifos.utils.upload_imgbb("output.gif", TWO_MONTHS_IN_SECONDS)
     readme_file_content = rf"""
-    <div align="justify">
-    <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="{image.url}">
-        <source media="(prefers-color-scheme: light)" srcset="{image.url}">
-        <img alt="GIFOS_README_TERMINAL" src="{image.url}">
-    </picture>
+<div align="justify">
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="{image.url}">
+    <source media="(prefers-color-scheme: light)" srcset="{image.url}">
+    <img alt="GIFOS_README_TERMINAL" src="{image.url}">
+</picture>
 
-    <sub><i>Generated using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal)</i></sub>
+<sub><i>Generated using [x0rzavi/github-readme-terminal](https://github.com/x0rzavi/github-readme-terminal)</i></sub>
 
-    </div>
+</div>
         """
     with open("README.md", "w") as fp:
         fp.write(readme_file_content)
