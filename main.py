@@ -21,7 +21,7 @@ def main():
         "Press \x1b[94mDEL\x1b[0m to enter SETUP, \x1b[94mESC\x1b[0m to cancel Memory Test",
         int(t.num_rows),
     )
-    for i in range(0, 1048576, 104858):  # 64K Memory
+    for i in range(0, 1048575, 104858):  # 64K Memory
         t.delete_row(7)
         if i < 30000:
             t.gen_text(
