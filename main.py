@@ -1,6 +1,8 @@
 import gifos
 import os
 
+TWO_MONTHS_IN_SECONDS = 5256000
+
 
 def main():
     t = gifos.Terminal(750, 500, 15, 15, font_size=15)
@@ -189,7 +191,7 @@ def main():
     )
 
     # upload the gif to save hella space
-    image = gifos.utils.upload_imgbb("output.gif", 648000)  # 7.5 days expiration
+    image = gifos.utils.upload_imgbb("output.gif", TWO_MONTHS_IN_SECONDS)
     readme_file_content = rf"""
     <div align="justify">
     <picture>
