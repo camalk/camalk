@@ -21,7 +21,7 @@ jobs:
         with:
           version: latest
       - name: Generate GIF, Upload to IMGBB and Generate README.md file
-        run: uv main.py
+        run: uv run main.py
         env:
           IMGBB_API_KEY: ${{ secrets.IMGBB_API_KEY }}
       - run: ls
