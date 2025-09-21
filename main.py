@@ -161,13 +161,14 @@ def main():
     t.clone_frame(5)
     age = gifos.utils.calc_age(31, 7, 1999)
     user_details = f"""
-    \x1b[30;101mmal0ner@github\x1b[0m
+    \x1b[30;101mcamalk@github\x1b[0m
         --------------
     \x1b[96mOS:     \x1b[93mMacOS, Linux\x1b[0m
     \x1b[96mHost:   \x1b[93mDeakin University Burwood\x1b[0m
     \x1b[96mKernel: \x1b[93mComputer Science\x1b[0m
     \x1b[96mUptime: \x1b[93m{age.years} years, {age.months} months\x1b[0m
-    \x1b[96mIDE:    \x1b[93mneovim 0.10\x1b[0m
+    \x1b[96mPDE:    \x1b[93mneovim <3\x1b[0m
+    \x1b[96mLangs:  \x1b[93mTypescript, Python, Go, Rust, OCaml\x1b[0m
 
     \x1b[30;101mContact:\x1b[0m
     --------------
